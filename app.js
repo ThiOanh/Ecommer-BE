@@ -52,7 +52,9 @@ mongoose.connect(`${process.env.DATABASE_URL}${process.env.DATABASE_NAME}`);
 passport.use(passportVerifyToken);
 passport.use(passportVerifyAccount);
 passport.use(passportConfigBasic);
-
+app.get("/test/route",(req,res) => {
+  res.send("Hello test")
+})
 app.use('/', indexRouter);
 
 app.use('/products', passport.authenticate('jwt', { session: false }), productRouter);
@@ -71,6 +73,7 @@ app.use('/questions', questionsRouter);
 app.use(function(req, res, next) {
   next(createError(404));
 });
+
 
 // error handler
 app.use(function(err, req, res, next) {
