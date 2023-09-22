@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1690027917258,
+    "name": "iPhone 17",
+    "price": 200,
+    "discount": 14,
+    "stock": 10,
+    "description": "sản phẩm hot hôm nay",
+    "isDeleted": false,
+    "categoryId": 1690292488851,
+    "supplierId": 1690292436584
+  },
+  {
+    "id": 1690029534241,
+    "name": "iPhone 17",
+    "price": 200,
+    "discount": 14,
+    "stock": 10,
+    "description": "sản phẩm hot hôm nay",
+    "isDeleted": false,
+    "categoryId": 1690292488851,
+    "supplierId": 1690292436584
+  },
+  {
+    "id": 1690034419376,
+    "name": "Tên eeee",
+    "price": 200,
+    "discount": 14,
+    "stock": 10,
+    "description": "sản phẩm hot hôm nay",
+    "isDeleted": false,
+    "categoryId": 1690292488851,
+    "supplierId": 1690292436584
+  },
+  {
+    "id": 1690292518131,
+    "name": "Bò hoàng kim",
+    "price": 999999,
+    "discount": 1,
+    "stock": 2,
+    "description": "Mô tả cho sản phẩm",
+    "isDeleted": false,
+    "categoryId": 1690292488851,
+    "supplierId": 1690292436584
+  },
+  {
+    "id": 1690292518132,
+    "name": "Bò hoàng tộc",
+    "price": 999999,
+    "discount": 1,
+    "stock": 2,
+    "description": "Mô tả cho sản phẩm",
+    "isDeleted": false,
+    "categoryId": 1690292488851,
+    "supplierId": 1690292436584
+  }
+]
